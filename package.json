@@ -1,0 +1,17 @@
+{
+  "name": "demo-spec-driven-dd",
+  "version": "1.0.0",
+  "description": "Demo: spec-driven BDD with Gauge + TypeScript + agentic development",
+  "scripts": {
+    "test": "gauge run specs/"
+  },
+  "dependencies": {
+    "gauge-ts": "0.3.0",
+    "ts-node": "^10.9.2",
+    "typescript": "^5.4.5"
+  },
+  "devDependencies": {
+    "@getgauge/cli": "^1.6.30",
+    "@types/node": "latest"
+  }
+}
